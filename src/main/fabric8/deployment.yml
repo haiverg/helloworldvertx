@@ -1,0 +1,15 @@
+spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+        - resources:
+            limits:
+              memory: '250Mi'spec:
+  replicas: 1
+  template:
+    spec:
+      containers:
+        - resources:
+            limits:
+              memory: '250Mi'
